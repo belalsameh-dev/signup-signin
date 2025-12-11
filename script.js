@@ -3,7 +3,6 @@ const wrapper = document.querySelector(".wrapper"),
   signInLink = document.querySelector(".link .signin-link"),
   locks = document.querySelectorAll("i.fa-lock");
 
-
 signUpLink.addEventListener("click", () => {
   wrapper.classList.add("animated-signin");
   wrapper.classList.remove("animated-signup");

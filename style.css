@@ -88,7 +88,7 @@ body {
     cursor: pointer;
 }
 .wrapper .form-container form .form-group i:hover {
-    color: var(--main-color);
+    color: var(--title-color);
     
 }
 
@@ -147,6 +147,10 @@ form .form-group input:valid~label {
     border-radius: 0.5rem;
     cursor: pointer;
     box-shadow: 0 0.2rem 1rem rgba(0 0 0 / 0.4);
+}
+
+.wrapper .form-container form .btn:hover {
+    background: var(--secondary-color);
 }
 
 .wrapper .form-container form .link {
